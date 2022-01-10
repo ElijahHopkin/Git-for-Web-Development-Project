@@ -21,9 +21,16 @@ Welcome to day 1 at BloomTech, today we are going to spend time setting up your 
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en) doc short for documentation are the instructions on how to use a languge, or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your google skills. 
 
 1. What is git? What is the difference between git and GitHub?
+Git is open source software for tracking the changes to a set of files or source code. GitHub offers a cloud based repository where files and source code can be stored and shared between multiple developers (utilizing git) to help them complete a project together.
 2. Why do we create a branch? 
 We create a branch so that we can make modifications on our own end without affecting the remote source.
 3. What is the purpose of a pull request? 
+A pull request is how I upload my local branch back up to GitHub (remote repo) for review.
 4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
+Two great commands to use are `git checkout` and `git switch`. I'm not clear on the difference between the two, but they complete the same task using slightly different code.
 5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+'git pull' updates my local branch (repo) in alignment with the remote. It will updates all remote tracking branches.
+'git merge' consolidates all branches to integrate them as one whole.
+'git fetch' pulls one or multiple URLs, but does not integrate them into the whole. (that would be 'git merge')
 6. What is a merge conflict? How do you resolve a merge conflict? 
+Merge conflicts occur when multiple 'merging' branches have competing commits. Resolution of simple conflicts can be done on GitHub through their conflict editor, else it must be done through commands.
